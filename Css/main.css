@@ -1,0 +1,204 @@
+*,body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+a:hover{
+    text-decoration: none;
+
+}
+
+#myVideo {
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+    margin-bottom: -7px;
+    position: absolute;
+    top: 0%;
+
+  }
+  .header{
+      position: relative;
+      height: 99vh;
+  }
+  
+  nav{
+      width: 100%;
+      position: absolute;
+      top: 0%;
+      z-index: 1    ;
+  }
+.div2{
+    position: absolute;
+    top: 45%;
+ 
+    z-index: 1;
+}
+
+.header-center{
+    color: #D2AC67;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+}
+.container-menu{
+    
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.nav-list{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.nav-list:before {
+
+
+    background: white!important;
+
+}
+.nav-list:hover{
+    color: #D2AC67;
+}
+.nav-button{
+    background-color: transparent;
+    margin-left: 15px;
+    border: white 1px solid;
+    color: white;
+}
+.nav-button:hover{
+    color: black!important;
+}
+.nav-button:before{
+    background: white!important;
+    
+}
+.hvr-bounce-to-right{
+    padding: 15px;
+    width: 175px;
+}
+
+.discover-btn{
+    border: 0px solid white;
+
+ 
+    margin-right: 20px;
+}
+.phone{
+    color: #D2AC67;
+    text-shadow: 1px 1px black;
+    font-weight: bolder;
+}
+.discover-btn:hover .phone{
+    color: white;
+}
+.discover-btn:before{
+    background-color: #D2AC67!important;
+}
+.hvr-underline-from-left{
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+    font-size: larger;
+    
+}
+.hvr-underline-from-left:hover{
+    color: white;
+    text-decoration: none;
+}
+.hvr-underline-from-left:before{
+    background-color: #fff!important;
+    height: 2px!important;
+}
+
+
+
+.avtolizinq{
+    background-color: black;
+}
+
+
+.sertler{
+    width: 250px;
+    height: 150px;
+    border: 1px solid white;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.sertler-ikon{
+    font-size: 24px;
+    transition: 0.75s all;
+}
+.sertler:hover .sertler-ikon{
+
+    transform: rotateY(180deg);
+}
+
+
+.img-avto{
+    width: 500px;
+}
+
+  
+.top{
+    position: fixed;
+    z-index: 9;
+    right: 50px;
+    bottom: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	color: white;
+	border: 1px solid #D2AC67;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+color: #D2AC67;
+	transition: all 1s;
+	
+}
+.top:hover{
+	background-color: #D2AC67;
+}
+.top:hover .fa-arrow-up{
+position: relative;
+	animation: mymove .81s infinite !important;
+    color: white;
+}
+
+@keyframes mymove {
+	from {top: -10px;}
+	to {top: 10px;}
+  }
+
+  @media only screen and (max-width: 600px) {
+ .reg-h{
+     font-size: 22px;
+ }
+  }
+
+
+  @media only screen and (max-width: 978px) {
+.img-avto{
+    width: 175px;
+}
+.header-center{
+    font-size: 18px;
+}
+.discover-btn{
+    width: 125px;
+}
+.navbar-collapse{
+    background-color: black;
+   
+}
+  }

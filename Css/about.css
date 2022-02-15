@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.about-img{
+    width: 450px;
+}
+@media only screen and (max-width: 978px) {
+    .about-img{
+
+        width: 300px;
+        padding-bottom: 10px;
+    }
+    .navbar-collapse{
+        background-color: black;
+       
+    }
+    .about-h1{
+        font-size: 24px;
+    }
+    .about-h4{
+        font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .about-img{
+
+        width: 225px;
+        padding-bottom: 10px;
+    }
+  
+  }
