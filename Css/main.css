@@ -256,6 +256,7 @@ position: relative;
     left: 0;
     right: 100%;
     top: 0;
+    background: #2098D1;
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
