@@ -24,7 +24,7 @@ function topFunction() {
 
 
 let textLength = 0;
-let text = 'Sərfəli lizinq şərtlərimiz ilə indi arzuladığınız avtomobilə qovuşmaq çox daha asandır!';
+let text = 'Sərfəli lizinq şərtlərimiz ilə buradan tanış ola bilərsiniz!';
 
 function type() {
     let textChar = text.charAt(textLength++);
