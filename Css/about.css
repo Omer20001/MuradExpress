@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 .about-img{
     width: 450px;
@@ -11,7 +11,7 @@ body{
         padding-bottom: 10px;
     }
     .navbar-collapse{
-        background-color: black;
+        background-color:white;
        
     }
     .about-h1{

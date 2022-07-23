@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(164, 240, 248);
 }
 
 html{
@@ -44,7 +44,7 @@ a:hover{
 }
 
 .header-center{
-    color: #D2AC67;
+    color: #6fbdde;
     font-weight: bolder;
     text-shadow: 2px 2px black;
 }
@@ -56,10 +56,10 @@ align-items: center;
 }
 .nav-list{
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px black;
+    color: #6fbdde;
+    text-shadow: 2px 1px black;
 }
 .nav-list:before {
 
@@ -68,7 +68,7 @@ align-items: center;
 
 }
 .nav-list:hover{
-    color: #D2AC67;
+    color:white;
 }
 .nav-button{
     background-color: transparent;
@@ -203,7 +203,7 @@ align-items: center;
     margin-right: 20px;
 }
 .phone{
-    color: #D2AC67;
+    color: #6fbdde;;
     text-shadow: 1px 1px black;
     font-weight: bolder;
 }
@@ -211,7 +211,7 @@ align-items: center;
     color: white;
 }
 .discover-btn:before{
-    background-color: #D2AC67!important;
+      background-color: #6fbdde!important;
 }
 .hvr-underline-from-left{
     color: white;
@@ -221,12 +221,12 @@ align-items: center;
     
 }
 .hvr-underline-from-left:hover{
-    color: white;
+    color: #6fbdde;
     text-decoration: none;
 }
 .hvr-underline-from-left:before{
-    background-color: #fff!important;
-    height: 2px!important;
+    background-color: #6fbdde!important;
+    height: 3px!important;
 }
 
 
@@ -412,17 +412,17 @@ align-items: center;
 	height: 50px;
 	background-color: transparent;
 	color: white;
-	border: 1px solid #D2AC67;
+	border: 1px solid #6fbdde;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-color: #D2AC67;
+color: #6fbdde;
 	transition: all 1s;
 	
 }
 .top:hover{
-	background-color: #D2AC67;
+	background-color: #6fbdde;
 }
 .top:hover .fa-arrow-up{
 position: relative;

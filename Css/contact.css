@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: white ;
 }
 .contact-img{
     width: 400px;
@@ -9,7 +9,7 @@ body{
      width:250px;
  }
     .navbar-collapse{
-        background-color: black;
+        background-color:white;
        
     }
       }
